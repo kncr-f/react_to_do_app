@@ -1,0 +1,60 @@
+.App {
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(7, 66, 15);
+    font-size: 20px;
+  }
+  
+  .header{
+    background-color:rgb(219, 235, 132);
+    padding-bottom: 40px;
+    padding-top: 5px;
+  }
+  
+  .adding_form input,
+  .adding_form button,
+  .clear {
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+  }
+  
+  .adding_form input {
+    background: #e1e1e2;
+    
+  }
+  
+  .adding_form button,
+  .clear {
+    background: #333;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .list {
+    padding: 20px 0;
+  }
+  
+  .list > div {
+    padding: 20px ;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .list > div:last-child {
+    border-bottom: 0;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  .pointer {
+    
+    cursor: pointer;
+    background-color:rgb(156, 214, 216)
+    
+  }
